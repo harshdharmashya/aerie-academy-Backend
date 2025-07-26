@@ -15,7 +15,7 @@ const app = express();
 // CORS configuration
 const corsOptions = {
   origin: [
-    'https://aerie-academy-tigu.vercel.app',
+    'https://aerie-academy-frontend.vercel.app/',
     'https://gate2026.aerieacademy.com',
     'http://localhost:3000', // Keep this for local development
   ],
