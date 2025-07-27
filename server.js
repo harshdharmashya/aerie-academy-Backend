@@ -16,6 +16,7 @@ const app = express();
 const corsOptions = {
   origin: [
     'https://aerie-academy-frontend.vercel.app',
+    'https://landing.aerieacademy.com',
     'http://localhost:3000', // Keep this for local development
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
